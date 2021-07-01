@@ -1,0 +1,62 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+    background-color: white;
+  }
+  
+  .choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 blue;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+  }
+  
+  .choice-text {
+    padding: 1.5rem;
+    width: 100%;
+  }
+  h2{
+    color: white;
+  }
+
+  .correct{
+    background-color: green;
+  }
+
+  .incorrect{
+    background-color: red;
+  }
+
+  #hd {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hd-prefix{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  #preloader{
+    height: 100vh;
+    width: 100%;
+    background: no-repeat center center;
+    position: fixed;
+    z-index: 100;
+    background-size: 30%;
+    background-color: white;
+    background-image: url(./images/loader.gif);
+  }
+  @media only screen and (max-width: 600px) {
+    h2 {
+       font-size: 3rem;
+    }
+  }
